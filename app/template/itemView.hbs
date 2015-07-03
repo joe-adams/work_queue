@@ -1,0 +1,24 @@
+<div class="row">	
+	<div class="col-lg-1 {{css}}">
+		
+	</div>
+	<div class="col-lg-3" data-role='statusMessage'>
+		{{statusMessage}}
+	</div>
+	<div class="col-lg-2">
+		{{processedBytes}}/{{totalBytes}}
+	</div>
+	<div class="col-lg-3">
+		{{#if email}}
+			<a href="mailto:{{email}}">{{fullname}}</a>
+		{{else}}
+			{{fullname}}
+		{{/if}}
+	</div>
+	<div class="col-lg-3">
+		{{request_date_display}}
+	</div>
+ 	<div class="col-lg-3">
+		{{{status}}}
+	</div>
+</div>

@@ -1,0 +1,26 @@
+<div>
+	<div class="row">	
+
+	    <div class="col-lg-12 text-center">
+	       <h3>The data has errors</h3>
+	     </div>
+	     <div class="col-lg-12 text-center">
+	       <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#errorDiv" aria-expanded="false" aria-controls="errorDiv">
+	       	Show/Hide errors
+	       </button>
+	      </div>
+	    </div>
+	</div>
+	<div class="collapse" id="errorDiv">
+
+			{{#each this}}
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-9">
+						<h4>{{this}}</h4>
+					</div>
+				</div>
+			{{/each}}
+		
+	</div>
+</div>
