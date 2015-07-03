@@ -1,5 +1,6 @@
 To build code you need node, grunt, and bower
 After installing node you can install grunt and bower globally
+Then you must do 'npm install'
 Then you must do 'bower install'
 Then 'grunt build'
 Then 'grunt server'
